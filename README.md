@@ -43,5 +43,5 @@ Proyek analisis dan simulasi transaksi finansial untuk eksperimen deteksi anomal
 ### 📫 Let's Connect!
 
 * **GitHub:** [@ivanchristian126](https://github.com/ivanchristian126)
-* **LinkedIn:** [Ivan Andrianus Christian](https://www.linkedin.com/) *(sesuaikan link profil kamu)*
-* **Email:** ivan.andrianus@example.com *(sesuaikan dengan email kamu)*
+* **LinkedIn:** [Ivan Andrianus Christian](https://www.linkedin.com/in/ivan-christian-aa1a49419/)
+* **Email:** ivanchristian2005@gmail.com
