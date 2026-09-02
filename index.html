@@ -1,1 +1,298 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ivan Andrianus Christian | Portfolio</title>
+  <meta name="description" content="Portfolio of Ivan Andrianus Christian - Software Engineering Student, Full-Stack Developer, and ML/IoT Enthusiast." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            },
+            surface: {
+              900: '#0f172a',
+              800: '#1e293b',
+              700: '#334155',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-surface-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-surface-900/80 border-b border-surface-700/50">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-lg tracking-tight text-white hover:text-indigo-400 transition-colors">
+        ivan<span class="text-indigo-500">.dev</span>
+      </a>
+      <nav class="flex items-center gap-6 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-indigo-400 transition-colors">Tentang</a>
+        <a href="#skills" class="hover:text-indigo-400 transition-colors">Tech Stack</a>
+        <a href="#projects" class="hover:text-indigo-400 transition-colors">Proyek</a>
+        <a href="#contact" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white hover:bg-indigo-500 transition-colors">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-12 space-y-24">
+
+    <section id="about" class="pt-8 md:pt-16">
+      <div class="max-w-3xl space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          Tersedia untuk Kolaborasi & Proyek
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+          Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Ivan Andrianus Christian</span>
+        </h1>
+        
+        <p class="text-lg md:text-xl text-indigo-300 font-medium">
+          Software Engineering Student | Full-Stack Developer | Machine Learning &amp; IoT Enthusiast
+        </p>
+        
+        <p class="text-slate-400 leading-relaxed text-base md:text-lg">
+          Saya berfokus pada pengembangan aplikasi web modern (<em>full-stack</em>), integrasi model <em>Machine Learning</em>, dan solusi berbasis <em>Internet of Things</em> (IoT). Terbiasa membangun arsitektur modular/<em>microservices</em> yang skalabel, pipeline analitik data, hingga sistem pemantauan lingkungan berbasis sensor.
+        </p>
+
+        <div class="flex flex-wrap items-center gap-4 pt-4">
+          <a href="#projects" class="px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium shadow-lg shadow-indigo-500/25 transition-all">
+            Lihat Proyek <i class="fa-solid fa-arrow-down ml-2 text-xs"></i>
+          </a>
+          <a href="https://github.com/ivanchristian126" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-surface-800 hover:bg-surface-700 text-slate-200 font-medium border border-surface-700 transition-all flex items-center gap-2">
+            <i class="fa-brands fa-github text-lg"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/ivan-christian-aa1a49419/" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-surface-800 hover:bg-surface-700 text-slate-200 font-medium border border-surface-700 transition-all flex items-center gap-2">
+            <i class="fa-brands fa-linkedin text-lg text-sky-400"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="space-y-8">
+      <div class="border-b border-surface-700/60 pb-4">
+        <h2 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+          <i class="fa-solid fa-layer-group text-indigo-400"></i> Tech Stack &amp; Tools
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">Teknologi dan tools yang sering saya gunakan dalam perancangan &amp; implementasi sistem.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 hover:border-indigo-500/50 transition-all">
+          <div class="flex items-center gap-3 text-indigo-400 font-semibold mb-4 text-base">
+            <i class="fa-solid fa-server"></i> Backend Engineering
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Spring Boot</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Laravel</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">RESTful APIs</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">JWT Auth</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 hover:border-indigo-500/50 transition-all">
+          <div class="flex items-center gap-3 text-cyan-400 font-semibold mb-4 text-base">
+            <i class="fa-solid fa-laptop-code"></i> Frontend &amp; Web
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">React</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Vite</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Tailwind CSS</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Leaflet.js</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 hover:border-indigo-500/50 transition-all">
+          <div class="flex items-center gap-3 text-emerald-400 font-semibold mb-4 text-base">
+            <i class="fa-solid fa-brain"></i> Machine Learning &amp; Data
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Scikit-Learn</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Pandas &amp; NumPy</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">XGBoost</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Regression &amp; Clustering</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 hover:border-indigo-500/50 transition-all">
+          <div class="flex items-center gap-3 text-amber-400 font-semibold mb-4 text-base">
+            <i class="fa-solid fa-code"></i> Core Languages
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Java</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">PHP</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Python</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">JavaScript / TS</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">C/C++</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">SQL</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 hover:border-indigo-500/50 transition-all md:col-span-2">
+          <div class="flex items-center gap-3 text-rose-400 font-semibold mb-4 text-base">
+            <i class="fa-solid fa-microchip"></i> DevOps, Databases &amp; IoT
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Docker</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">PostgreSQL &amp; MySQL</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">ESP32</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Git &amp; GitHub Actions</span>
+            <span class="px-3 py-1 rounded-md text-xs font-medium bg-surface-900 text-slate-300 border border-surface-700">Postman</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="space-y-8">
+      <div class="border-b border-surface-700/60 pb-4">
+        <h2 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+          <i class="fa-solid fa-diagram-project text-indigo-400"></i> Featured Projects
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">Implementasi nyata sistem web, machine learning, dan IoT.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 flex flex-col justify-between hover:border-indigo-500 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-2xl">🧠</span>
+              <span class="text-xs font-mono uppercase tracking-wider text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded">Microservices / ML</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">MindSync</h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Platform evaluasi dan pendampingan kesehatan mental berbasis web dengan arsitektur microservices terpisah serta integrasi model Machine Learning untuk klasifikasi dan skrining awal.
+            </p>
+          </div>
+
+          <div class="pt-6 space-y-3">
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Repositories:</div>
+            <div class="flex flex-col gap-2 text-xs">
+              <a href="https://github.com/ji-tech-2/mindsync-frontend" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 flex items-center justify-between bg-surface-900/60 px-3 py-2 rounded border border-surface-700/50">
+                <span><i class="fa-brands fa-react mr-1.5"></i> Frontend (React + Tailwind)</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/ji-tech-2/mindsync-auth" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 flex items-center justify-between bg-surface-900/60 px-3 py-2 rounded border border-surface-700/50">
+                <span><i class="fa-solid fa-lock mr-1.5"></i> Auth Service (Spring Boot + JWT)</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/ji-tech-2/mindsync-screening" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 flex items-center justify-between bg-surface-900/60 px-3 py-2 rounded border border-surface-700/50">
+                <span><i class="fa-solid fa-brain mr-1.5"></i> Screening &amp; ML Service</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 flex flex-col justify-between hover:border-indigo-500 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-2xl">⛰️</span>
+              <span class="text-xs font-mono uppercase tracking-wider text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded">Web GIS / Laravel</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Sumorrow</h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Platform <em>one-stop solution</em> untuk pendaki gunung di Indonesia. Menyediakan navigasi dan jalur pendakian via GIS mapping interaktif serta pemantauan prakiraan cuaca secara <em>real-time</em>.
+            </p>
+          </div>
+
+          <div class="pt-6 space-y-3">
+            <div class="flex flex-wrap gap-2 text-xs text-slate-400 mb-2">
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">Laravel</span>
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">Leaflet.js</span>
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">OpenWeather API</span>
+            </div>
+            <a href="https://github.com/sumorrow-id/sumorrow" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-surface-900 hover:bg-surface-700 text-indigo-400 hover:text-indigo-300 border border-surface-700 text-sm font-medium w-full justify-center transition-colors">
+              <i class="fa-brands fa-github"></i> Repository Sumorrow <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 flex flex-col justify-between hover:border-indigo-500 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-2xl">🌊</span>
+              <span class="text-xs font-mono uppercase tracking-wider text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded">IoT &amp; Machine Learning</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">IoT &amp; ML Flood Prediction</h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Sistem pemantauan dan peramalan kenaikan debit air sungai berbasis model Machine Learning regresi dan telemetry sensor IoT untuk deteksi dini bahaya banjir.
+            </p>
+          </div>
+
+          <div class="pt-6 space-y-3">
+            <div class="flex flex-wrap gap-2 text-xs text-slate-400 mb-2">
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">ESP32</span>
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">Regression ML</span>
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">Python</span>
+            </div>
+            <a href="https://github.com/ivanchristian126/IoT-Flood-Prediction" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-surface-900 hover:bg-surface-700 text-indigo-400 hover:text-indigo-300 border border-surface-700 text-sm font-medium w-full justify-center transition-colors">
+              <i class="fa-brands fa-github"></i> Repository IoT Flood Prediction <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-surface-800/80 border border-surface-700/60 flex flex-col justify-between hover:border-indigo-500 transition-all">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-2xl">💳</span>
+              <span class="text-xs font-mono uppercase tracking-wider text-amber-400 bg-amber-500/10 px-2.5 py-1 rounded">Data Analytics</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">PaySim / Financial Simulation</h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Simulasi dan analisis transaksi keuangan sintetis untuk riset pendeteksian anomali serta evaluasi alur pemrosesan pembayaran.
+            </p>
+          </div>
+
+          <div class="pt-6 space-y-3">
+            <div class="flex flex-wrap gap-2 text-xs text-slate-400 mb-2">
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">Financial Modeling</span>
+              <span class="bg-surface-900 px-2 py-1 rounded border border-surface-700">Pandas / NumPy</span>
+            </div>
+            <a href="https://github.com/chukynya/paysim1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-surface-900 hover:bg-surface-700 text-indigo-400 hover:text-indigo-300 border border-surface-700 text-sm font-medium w-full justify-center transition-colors">
+              <i class="fa-brands fa-github"></i> Repository PaySim <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="p-8 md:p-12 rounded-2xl bg-gradient-to-b from-surface-800 to-surface-900 border border-surface-700 text-center space-y-6">
+      <h2 class="text-2xl md:text-3xl font-bold text-white">Mari Terhubung!</h2>
+      <p class="text-slate-400 max-w-xl mx-auto text-sm md:text-base">
+        Terbuka untuk diskusi proyek rekayasa perangkat lunak, integrasi machine learning, ataupun kolaborasi sistem IoT.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
+        <a href="mailto:ivanchristian2005@gmail.com" class="px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium flex items-center gap-2 transition-colors">
+          <i class="fa-regular fa-envelope"></i> ivanchristian2005@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/ivan-christian-aa1a49419/" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-surface-800 hover:bg-surface-700 border border-surface-700 text-slate-200 font-medium flex items-center gap-2 transition-colors">
+          <i class="fa-brands fa-linkedin text-sky-400"></i> LinkedIn Profile
+        </a>
+        <a href="https://github.com/ivanchristian126" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-surface-800 hover:bg-surface-700 border border-surface-700 text-slate-200 font-medium flex items-center gap-2 transition-colors">
+          <i class="fa-brands fa-github"></i> GitHub Profile
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-surface-700/50 py-8 text-center text-xs text-slate-500">
+    <p>&copy; 2026 Ivan Andrianus Christian. Hosted on GitHub Pages.</p>
+  </footer>
+
+</body>
+</html>
