@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ivan Andrianus Christian | Portfolio</title>
-  <meta name="description" content="Portfolio of Ivan Andrianus Christian - Software Engineering Student, Full-Stack Developer, and ML/IoT Enthusiast." />
+  <title>Curriculum Vitae | Ivan Andrianus Christian</title>
+  <meta name="description" content="Curriculum Vitae of Ivan Andrianus Christian - Software Engineering Student at BINUS University." />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <script>
@@ -12,21 +12,23 @@
       theme: {
         extend: {
           colors: {
-            cream: {
-              50: '#fdfbf7',
-              100: '#f7f2ea',
-              200: '#ede4d3',
-              300: '#dfd2b8',
-              800: '#42372c',
-              900: '#2b231a',
+            warm: {
+              50: '#fbf9f6',
+              100: '#f5f0ea',
+              200: '#eae2d7',
+              300: '#dccec0',
+              600: '#5c544d',
+              700: '#47403a',
+              800: '#342e2a',
+              900: '#221e1a',
             },
-            accent: {
-              50: '#fff7ed',
-              100: '#ffedd5',
-              200: '#fed7aa',
-              500: '#ea580c',
-              600: '#c2410c',
-              700: '#9a3412',
+            terracotta: {
+              50: '#fdf6f3',
+              100: '#faece5',
+              200: '#f4d8cc',
+              500: '#c26245',
+              600: '#aa5035',
+              700: '#8c3f29',
             }
           }
         }
@@ -34,239 +36,253 @@
     }
   </script>
 </head>
-<body class="bg-cream-50 text-cream-900 font-sans antialiased selection:bg-accent-500 selection:text-white">
+<body class="bg-warm-50 text-warm-800 font-sans antialiased selection:bg-terracotta-500 selection:text-white">
 
-  <header class="sticky top-0 z-50 bg-cream-50/90 backdrop-blur-md border-b border-cream-200">
+  <header class="sticky top-0 z-50 bg-warm-50/90 backdrop-blur-md border-b border-warm-200">
     <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-      <a href="#" class="font-bold text-lg tracking-tight text-cream-900 hover:text-accent-600 transition-colors">
-        ivan<span class="text-accent-500">.dev</span>
+      <a href="#" class="font-bold text-lg tracking-tight text-warm-900 hover:text-terracotta-600 transition-colors">
+        Curriculum Vitae
       </a>
-      <nav class="flex items-center gap-6 text-sm font-medium text-cream-800">
-        <a href="#about" class="hover:text-accent-600 transition-colors">Tentang</a>
-        <a href="#skills" class="hover:text-accent-600 transition-colors">Tech Stack</a>
-        <a href="#projects" class="hover:text-accent-600 transition-colors">Proyek</a>
-        <a href="#contact" class="px-3.5 py-1.5 rounded-lg bg-accent-500 text-white hover:bg-accent-600 transition-colors">Kontak</a>
+      <nav class="flex items-center gap-6 text-sm font-medium text-warm-600">
+        <a href="#about" class="hover:text-terracotta-600 transition-colors">Tentang</a>
+        <a href="#skills" class="hover:text-terracotta-600 transition-colors">Tech Stack</a>
+        <a href="#projects" class="hover:text-terracotta-600 transition-colors">Proyek</a>
+        <a href="#contact" class="px-3.5 py-1.5 rounded-lg bg-terracotta-500 text-white hover:bg-terracotta-600 transition-colors">Kontak</a>
       </nav>
     </div>
   </header>
 
   <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
 
-    <section id="about" class="pt-6 md:pt-12">
-      <div class="max-w-3xl space-y-5">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-accent-100 text-accent-700 border border-accent-200">
-          <span class="w-2 h-2 rounded-full bg-accent-500"></span>
-          Tersedia untuk Kolaborasi & Proyek
+    <section id="about" class="pt-6 md:pt-10">
+      <div class="flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-8">
+        <div class="max-w-2xl space-y-4">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-terracotta-100 text-terracotta-700 border border-terracotta-200">
+            <span class="w-1.5 h-1.5 rounded-full bg-terracotta-500"></span>
+            Tersedia untuk Kolaborasi & Proyek
+          </div>
+
+          <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight text-warm-900 leading-tight">
+            Hi, I'm <span class="text-terracotta-600">Ivan Andrianus Christian</span>
+          </h1>
+
+          <p class="text-base md:text-lg text-warm-700 font-medium">
+            Software Engineering Student | Full-Stack Developer | Machine Learning & IoT Enthusiast
+          </p>
+
+          <p class="text-warm-600 leading-relaxed text-sm md:text-base text-justify md:text-left">
+            Saya merupakan mahasiswa Software Engineering di BINUS University yang berasal dari Atambua, Nusa Tenggara Timur. Saya berfokus pada rekayasa perangkat lunak modern (<em>full-stack</em>), integrasi model <em>Machine Learning</em>, serta implementasi sistem <em>Internet of Things</em> (IoT). Terbiasa merancang arsitektur backend yang aman dan skalabel, sistem informasi berbasis peta, hingga pengolahan data telemetri sensor.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-3 pt-2">
+            <a href="#projects" class="px-4 py-2 rounded-lg bg-terracotta-500 hover:bg-terracotta-600 text-white font-medium text-sm transition-colors">
+              Lihat Proyek <i class="fa-solid fa-arrow-down ml-1 text-xs"></i>
+            </a>
+            <a href="https://github.com/ivanchristian126" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-warm-100 hover:bg-warm-200 text-warm-900 font-medium text-sm border border-warm-200 transition-colors inline-flex items-center gap-2">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/ivan-christian-aa1a49419/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-warm-100 hover:bg-warm-200 text-warm-900 font-medium text-sm border border-warm-200 transition-colors inline-flex items-center gap-2">
+              <i class="fa-brands fa-linkedin text-terracotta-600"></i> LinkedIn
+            </a>
+          </div>
         </div>
 
-        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-cream-900 leading-tight">
-          Hi, I'm <span class="text-accent-500">Ivan Andrianus Christian</span>
-        </h1>
-
-        <p class="text-lg md:text-xl text-accent-700 font-medium">
-          Software Engineering Student | Full-Stack Developer | Machine Learning &amp; IoT Enthusiast
-        </p>
-
-        <p class="text-cream-800 leading-relaxed text-base md:text-lg">
-          Saya berfokus pada pengembangan aplikasi web modern (<em>full-stack</em>), integrasi model <em>Machine Learning</em>, dan solusi berbasis <em>Internet of Things</em> (IoT). Terbiasa membangun arsitektur modular/<em>microservices</em> yang skalabel, pipeline analitik data, hingga sistem pemantauan lingkungan berbasis sensor.
-        </p>
-
-        <div class="flex flex-wrap items-center gap-3 pt-2">
-          <a href="#projects" class="px-5 py-2.5 rounded-lg bg-accent-500 hover:bg-accent-600 text-white font-medium transition-colors">
-            Lihat Proyek <i class="fa-solid fa-arrow-down ml-1 text-xs"></i>
-          </a>
-          <a href="https://github.com/ivanchristian126" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-cream-100 hover:bg-cream-200 text-cream-900 font-medium border border-cream-200 transition-colors inline-flex items-center gap-2">
-            <i class="fa-brands fa-github"></i> GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/ivan-christian-aa1a49419/" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-cream-100 hover:bg-cream-200 text-cream-900 font-medium border border-cream-200 transition-colors inline-flex items-center gap-2">
-            <i class="fa-brands fa-linkedin text-accent-600"></i> LinkedIn
-          </a>
+        <div class="flex-shrink-0">
+          <div class="w-40 h-40 md:w-48 md:h-48 rounded-2xl overflow-hidden border border-warm-200 shadow-sm bg-warm-100">
+            <img src="profil.jpg" alt="Ivan Andrianus Christian" class="w-full h-full object-cover object-top" />
+          </div>
         </div>
       </div>
     </section>
 
     <section id="skills" class="space-y-6">
-      <div class="border-b border-cream-200 pb-3">
-        <h2 class="text-2xl md:text-3xl font-bold text-cream-900 flex items-center gap-2.5">
-          <i class="fa-solid fa-layer-group text-accent-500"></i> Tech Stack &amp; Tools
+      <div class="border-b border-warm-200 pb-3">
+        <h2 class="text-xl md:text-2xl font-bold text-warm-900 flex items-center gap-2.5">
+          <i class="fa-solid fa-layer-group text-terracotta-500"></i> Tech Stack & Tools
         </h2>
-        <p class="text-cream-800 text-sm mt-1">Teknologi dan tools yang sering saya gunakan dalam perancangan &amp; implementasi sistem.</p>
+        <p class="text-warm-600 text-xs md:text-sm mt-1">Teknologi dan tools yang saya gunakan dalam pengembangan sistem.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200">
-          <div class="flex items-center gap-2.5 text-accent-700 font-semibold mb-3 text-base">
-            <i class="fa-solid fa-server text-accent-500"></i> Backend Engineering
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="p-4 rounded-xl bg-white border border-warm-200">
+          <div class="flex items-center gap-2 text-warm-800 font-semibold mb-3 text-sm">
+            <i class="fa-solid fa-server text-terracotta-500"></i> Backend Engineering
           </div>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Spring Boot</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Laravel</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">RESTful APIs</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">JWT Auth</span>
-          </div>
-        </div>
-
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200">
-          <div class="flex items-center gap-2.5 text-accent-700 font-semibold mb-3 text-base">
-            <i class="fa-solid fa-laptop-code text-accent-500"></i> Frontend &amp; Web
-          </div>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">React</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Vite</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Tailwind CSS</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Leaflet.js</span>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Spring Boot</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Laravel</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">RESTful APIs</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">JWT Auth</span>
           </div>
         </div>
 
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200">
-          <div class="flex items-center gap-2.5 text-accent-700 font-semibold mb-3 text-base">
-            <i class="fa-solid fa-brain text-accent-500"></i> Machine Learning &amp; Data
+        <div class="p-4 rounded-xl bg-white border border-warm-200">
+          <div class="flex items-center gap-2 text-warm-800 font-semibold mb-3 text-sm">
+            <i class="fa-solid fa-laptop-code text-terracotta-500"></i> Frontend & Web
           </div>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Scikit-Learn</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Pandas &amp; NumPy</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">XGBoost</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Regression &amp; Clustering</span>
-          </div>
-        </div>
-
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200">
-          <div class="flex items-center gap-2.5 text-accent-700 font-semibold mb-3 text-base">
-            <i class="fa-solid fa-code text-accent-500"></i> Core Languages
-          </div>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Java</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">PHP</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Python</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">JavaScript / TS</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">C/C++</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">SQL</span>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">React</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Vite</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Tailwind CSS</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Leaflet.js</span>
           </div>
         </div>
 
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200 md:col-span-2">
-          <div class="flex items-center gap-2.5 text-accent-700 font-semibold mb-3 text-base">
-            <i class="fa-solid fa-microchip text-accent-500"></i> DevOps, Databases &amp; IoT
+        <div class="p-4 rounded-xl bg-white border border-warm-200">
+          <div class="flex items-center gap-2 text-warm-800 font-semibold mb-3 text-sm">
+            <i class="fa-solid fa-brain text-terracotta-500"></i> Machine Learning & Data
           </div>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Docker</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">PostgreSQL &amp; MySQL</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">ESP32</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Git &amp; GitHub</span>
-            <span class="px-2.5 py-1 rounded text-xs font-medium bg-cream-50 text-cream-900 border border-cream-200">Postman</span>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Scikit-Learn</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Pandas & NumPy</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">XGBoost</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Regression & Clustering</span>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-xl bg-white border border-warm-200">
+          <div class="flex items-center gap-2 text-warm-800 font-semibold mb-3 text-sm">
+            <i class="fa-solid fa-code text-terracotta-500"></i> Core Languages
+          </div>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Java</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">PHP</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Python</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">JavaScript / TS</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">C/C++</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">SQL</span>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-xl bg-white border border-warm-200 md:col-span-2">
+          <div class="flex items-center gap-2 text-warm-800 font-semibold mb-3 text-sm">
+            <i class="fa-solid fa-microchip text-terracotta-500"></i> DevOps, Databases & IoT
+          </div>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Docker</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">PostgreSQL & MySQL</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">ESP32</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Git & GitHub</span>
+            <span class="px-2 py-0.5 rounded text-xs font-medium bg-warm-50 text-warm-700 border border-warm-200">Postman</span>
           </div>
         </div>
       </div>
     </section>
 
     <section id="projects" class="space-y-6">
-      <div class="border-b border-cream-200 pb-3">
-        <h2 class="text-2xl md:text-3xl font-bold text-cream-900 flex items-center gap-2.5">
-          <i class="fa-solid fa-diagram-project text-accent-500"></i> Featured Projects
+      <div class="border-b border-warm-200 pb-3">
+        <h2 class="text-xl md:text-2xl font-bold text-warm-900 flex items-center gap-2.5">
+          <i class="fa-solid fa-diagram-project text-terracotta-500"></i> Featured Projects
         </h2>
-        <p class="text-cream-800 text-sm mt-1">Implementasi nyata sistem web, machine learning, dan IoT.</p>
+        <p class="text-warm-600 text-xs md:text-sm mt-1">Implementasi nyata sistem web, machine learning, dan IoT.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200 flex flex-col justify-between">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <span class="text-2xl">🧠</span>
-              <span class="text-xs font-mono uppercase tracking-wider text-accent-700 bg-accent-100 border border-accent-200 px-2.5 py-0.5 rounded">Microservices / ML</span>
+        <div class="rounded-xl bg-white border border-warm-200 overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="w-full h-36 border-b border-warm-200 bg-warm-100 overflow-hidden">
+              <img src="mindsync.jpg" alt="MindSync Preview" class="w-full h-full object-cover" />
             </div>
-            <h3 class="text-xl font-bold text-cream-900">MindSync</h3>
-            <p class="text-sm text-cream-800 leading-relaxed">
-              Platform evaluasi dan pendampingan kesehatan mental berbasis web dengan arsitektur microservices terpisah serta integrasi model Machine Learning untuk klasifikasi dan skrining awal.
-            </p>
+            <div class="p-5 space-y-2.5">
+              <div class="flex items-center justify-between">
+                <h3 class="text-lg font-bold text-warm-900">MindSync</h3>
+                <span class="text-[11px] font-mono text-terracotta-700 bg-terracotta-50 border border-terracotta-200 px-2 py-0.5 rounded">Microservices / ML</span>
+              </div>
+              <p class="text-xs md:text-sm text-warm-600 leading-relaxed">
+                Platform evaluasi dan pendampingan kesehatan mental berbasis web dengan arsitektur microservices terpisah serta integrasi model Machine Learning untuk klasifikasi dan skrining awal.
+              </p>
+            </div>
           </div>
 
-          <div class="pt-5 space-y-2">
-            <div class="text-xs font-semibold text-accent-700 uppercase tracking-wider">Repositories:</div>
-            <div class="flex flex-col gap-2 text-xs">
-              <a href="https://github.com/ji-tech-2/mindsync-frontend" target="_blank" rel="noopener noreferrer" class="text-cream-900 hover:text-accent-600 flex items-center justify-between bg-cream-50 px-3 py-2 rounded border border-cream-200 transition-colors">
-                <span><i class="fa-brands fa-react mr-1.5 text-accent-500"></i> Frontend (React + Tailwind)</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <div class="p-5 pt-0 space-y-1.5">
+            <div class="text-[11px] font-semibold text-warm-600 uppercase tracking-wider">Repositories:</div>
+            <div class="flex flex-col gap-1.5 text-xs">
+              <a href="https://github.com/ji-tech-2/mindsync-frontend" target="_blank" rel="noopener noreferrer" class="text-warm-800 hover:text-terracotta-600 flex items-center justify-between bg-warm-50 px-3 py-1.5 rounded border border-warm-200 transition-colors">
+                <span><i class="fa-brands fa-react mr-1.5 text-terracotta-500"></i> Frontend (React + Tailwind)</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </a>
-              <a href="https://github.com/ji-tech-2/mindsync-auth" target="_blank" rel="noopener noreferrer" class="text-cream-900 hover:text-accent-600 flex items-center justify-between bg-cream-50 px-3 py-2 rounded border border-cream-200 transition-colors">
-                <span><i class="fa-solid fa-lock mr-1.5 text-accent-500"></i> Auth Service (Spring Boot + JWT)</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="https://github.com/ji-tech-2/mindsync-auth" target="_blank" rel="noopener noreferrer" class="text-warm-800 hover:text-terracotta-600 flex items-center justify-between bg-warm-50 px-3 py-1.5 rounded border border-warm-200 transition-colors">
+                <span><i class="fa-solid fa-lock mr-1.5 text-terracotta-500"></i> Auth Service (Spring Boot + JWT)</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </a>
-              <a href="https://github.com/ji-tech-2/mindsync-screening" target="_blank" rel="noopener noreferrer" class="text-cream-900 hover:text-accent-600 flex items-center justify-between bg-cream-50 px-3 py-2 rounded border border-cream-200 transition-colors">
-                <span><i class="fa-solid fa-brain mr-1.5 text-accent-500"></i> Screening &amp; ML Service</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="https://github.com/ji-tech-2/mindsync-screening" target="_blank" rel="noopener noreferrer" class="text-warm-800 hover:text-terracotta-600 flex items-center justify-between bg-warm-50 px-3 py-1.5 rounded border border-warm-200 transition-colors">
+                <span><i class="fa-solid fa-brain mr-1.5 text-terracotta-500"></i> Screening & ML Service</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200 flex flex-col justify-between">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <span class="text-2xl">⛰️</span>
-              <span class="text-xs font-mono uppercase tracking-wider text-accent-700 bg-accent-100 border border-accent-200 px-2.5 py-0.5 rounded">Web GIS / Laravel</span>
+        <div class="rounded-xl bg-white border border-warm-200 overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="w-full h-36 border-b border-warm-200 bg-warm-100 overflow-hidden">
+              <img src="summorow.jpg" alt="Sumorrow Preview" class="w-full h-full object-cover" />
             </div>
-            <h3 class="text-xl font-bold text-cream-900">Sumorrow</h3>
-            <p class="text-sm text-cream-800 leading-relaxed">
-              Platform <em>one-stop solution</em> untuk pendaki gunung di Indonesia. Menyediakan navigasi dan jalur pendakian via GIS mapping interaktif serta pemantauan prakiraan cuaca secara <em>real-time</em>.
-            </p>
+            <div class="p-5 space-y-2.5">
+              <div class="flex items-center justify-between">
+                <h3 class="text-lg font-bold text-warm-900">Sumorrow</h3>
+                <span class="text-[11px] font-mono text-terracotta-700 bg-terracotta-50 border border-terracotta-200 px-2 py-0.5 rounded">Web GIS / Laravel</span>
+              </div>
+              <p class="text-xs md:text-sm text-warm-600 leading-relaxed">
+                Platform <em>one-stop solution</em> untuk pendaki gunung di Indonesia. Menyediakan navigasi jalur pendakian berbasis GIS mapping interaktif serta pemantauan kondisi cuaca secara <em>real-time</em>.
+              </p>
+            </div>
           </div>
 
-          <div class="pt-5 space-y-3">
-            <div class="flex flex-wrap gap-1.5 text-xs text-cream-800">
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">Laravel</span>
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">Leaflet.js</span>
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">OpenWeather API</span>
+          <div class="p-5 pt-0 space-y-3">
+            <div class="flex flex-wrap gap-1 text-[11px] text-warm-600">
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">Laravel</span>
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">Leaflet.js</span>
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">OpenWeather API</span>
             </div>
-            <a href="https://github.com/sumorrow-id/sumorrow" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cream-50 hover:bg-cream-200 text-cream-900 border border-cream-200 text-sm font-medium w-full justify-center transition-colors">
-              <i class="fa-brands fa-github text-accent-500"></i> Repository Sumorrow <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i>
+            <a href="https://github.com/sumorrow-id/sumorrow" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-warm-50 hover:bg-warm-100 text-warm-800 border border-warm-200 text-xs font-medium w-full justify-center transition-colors">
+              <i class="fa-brands fa-github text-terracotta-500"></i> Repository Sumorrow <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1"></i>
             </a>
           </div>
         </div>
 
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200 flex flex-col justify-between">
-          <div class="space-y-3">
+        <div class="p-5 rounded-xl bg-white border border-warm-200 flex flex-col justify-between">
+          <div class="space-y-2.5">
             <div class="flex items-center justify-between">
-              <span class="text-2xl">🌊</span>
-              <span class="text-xs font-mono uppercase tracking-wider text-accent-700 bg-accent-100 border border-accent-200 px-2.5 py-0.5 rounded">IoT &amp; Machine Learning</span>
+              <h3 class="text-lg font-bold text-warm-900">IoT & ML Flood Prediction</h3>
+              <span class="text-[11px] font-mono text-terracotta-700 bg-terracotta-50 border border-terracotta-200 px-2 py-0.5 rounded">IoT & Machine Learning</span>
             </div>
-            <h3 class="text-xl font-bold text-cream-900">IoT &amp; ML Flood Prediction</h3>
-            <p class="text-sm text-cream-800 leading-relaxed">
-              Sistem pemantauan dan peramalan kenaikan debit air sungai berbasis model Machine Learning regresi dan telemetry sensor IoT untuk deteksi dini bahaya banjir.
+            <p class="text-xs md:text-sm text-warm-600 leading-relaxed">
+              Sistem pemantauan dan peramalan kenaikan debit air sungai berbasis model Machine Learning regresi dan telemetri sensor IoT untuk deteksi dini risiko banjir.
             </p>
           </div>
 
           <div class="pt-5 space-y-3">
-            <div class="flex flex-wrap gap-1.5 text-xs text-cream-800">
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">ESP32</span>
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">Regression ML</span>
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">Python</span>
+            <div class="flex flex-wrap gap-1 text-[11px] text-warm-600">
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">ESP32</span>
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">Regression ML</span>
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">Python</span>
             </div>
-            <a href="https://github.com/ivanchristian126/IoT-Flood-Prediction" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cream-50 hover:bg-cream-200 text-cream-900 border border-cream-200 text-sm font-medium w-full justify-center transition-colors">
-              <i class="fa-brands fa-github text-accent-500"></i> Repository IoT Flood Prediction <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i>
+            <a href="https://github.com/ivanchristian126/IoT-Flood-Prediction" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-warm-50 hover:bg-warm-100 text-warm-800 border border-warm-200 text-xs font-medium w-full justify-center transition-colors">
+              <i class="fa-brands fa-github text-terracotta-500"></i> Repository IoT Flood Prediction <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1"></i>
             </a>
           </div>
         </div>
 
-        <div class="p-5 rounded-xl bg-cream-100 border border-cream-200 flex flex-col justify-between">
-          <div class="space-y-3">
+        <div class="p-5 rounded-xl bg-white border border-warm-200 flex flex-col justify-between">
+          <div class="space-y-2.5">
             <div class="flex items-center justify-between">
-              <span class="text-2xl">💳</span>
-              <span class="text-xs font-mono uppercase tracking-wider text-accent-700 bg-accent-100 border border-accent-200 px-2.5 py-0.5 rounded">Data Analytics</span>
+              <h3 class="text-lg font-bold text-warm-900">PaySim / Financial Simulation</h3>
+              <span class="text-[11px] font-mono text-terracotta-700 bg-terracotta-50 border border-terracotta-200 px-2 py-0.5 rounded">Data Analytics</span>
             </div>
-            <h3 class="text-xl font-bold text-cream-900">PaySim / Financial Simulation</h3>
-            <p class="text-sm text-cream-800 leading-relaxed">
+            <p class="text-xs md:text-sm text-warm-600 leading-relaxed">
               Simulasi dan analisis transaksi keuangan sintetis untuk riset pendeteksian anomali serta evaluasi alur pemrosesan pembayaran.
             </p>
           </div>
 
           <div class="pt-5 space-y-3">
-            <div class="flex flex-wrap gap-1.5 text-xs text-cream-800">
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">Financial Modeling</span>
-              <span class="bg-cream-50 px-2 py-0.5 rounded border border-cream-200">Pandas / NumPy</span>
+            <div class="flex flex-wrap gap-1 text-[11px] text-warm-600">
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">Financial Modeling</span>
+              <span class="bg-warm-50 px-2 py-0.5 rounded border border-warm-200">Pandas / NumPy</span>
             </div>
-            <a href="https://github.com/chukynya/paysim1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cream-50 hover:bg-cream-200 text-cream-900 border border-cream-200 text-sm font-medium w-full justify-center transition-colors">
-              <i class="fa-brands fa-github text-accent-500"></i> Repository PaySim <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i>
+            <a href="https://github.com/chukynya/paysim1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-warm-50 hover:bg-warm-100 text-warm-800 border border-warm-200 text-xs font-medium w-full justify-center transition-colors">
+              <i class="fa-brands fa-github text-terracotta-500"></i> Repository PaySim <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1"></i>
             </a>
           </div>
         </div>
@@ -274,20 +290,20 @@
       </div>
     </section>
 
-    <section id="contact" class="p-8 md:p-10 rounded-2xl bg-cream-100 border border-cream-200 text-center space-y-5">
-      <h2 class="text-2xl md:text-3xl font-bold text-cream-900">Mari Terhubung!</h2>
-      <p class="text-cream-800 max-w-xl mx-auto text-sm md:text-base">
+    <section id="contact" class="p-6 md:p-8 rounded-2xl bg-white border border-warm-200 text-center space-y-4">
+      <h2 class="text-xl md:text-2xl font-bold text-warm-900">Mari Terhubung</h2>
+      <p class="text-warm-600 max-w-xl mx-auto text-xs md:text-sm">
         Terbuka untuk diskusi proyek rekayasa perangkat lunak, integrasi machine learning, ataupun kolaborasi sistem IoT.
       </p>
 
-      <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
-        <a href="mailto:ivanchristian2005@gmail.com" class="px-5 py-2.5 rounded-lg bg-accent-500 hover:bg-accent-600 text-white font-medium inline-flex items-center gap-2 transition-colors">
+      <div class="flex flex-wrap items-center justify-center gap-2.5 pt-2">
+        <a href="mailto:ivanchristian2005@gmail.com" class="px-4 py-2 rounded-lg bg-terracotta-500 hover:bg-terracotta-600 text-white font-medium text-xs md:text-sm inline-flex items-center gap-2 transition-colors">
           <i class="fa-regular fa-envelope"></i> ivanchristian2005@gmail.com
         </a>
-        <a href="https://www.linkedin.com/in/ivan-christian-aa1a49419/" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-cream-50 hover:bg-cream-200 border border-cream-200 text-cream-900 font-medium inline-flex items-center gap-2 transition-colors">
-          <i class="fa-brands fa-linkedin text-accent-600"></i> LinkedIn Profile
+        <a href="https://www.linkedin.com/in/ivan-christian-aa1a49419/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-warm-50 hover:bg-warm-100 border border-warm-200 text-warm-800 font-medium text-xs md:text-sm inline-flex items-center gap-2 transition-colors">
+          <i class="fa-brands fa-linkedin text-terracotta-600"></i> LinkedIn Profile
         </a>
-        <a href="https://github.com/ivanchristian126" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-cream-50 hover:bg-cream-200 border border-cream-200 text-cream-900 font-medium inline-flex items-center gap-2 transition-colors">
+        <a href="https://github.com/ivanchristian126" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-warm-50 hover:bg-warm-100 border border-warm-200 text-warm-800 font-medium text-xs md:text-sm inline-flex items-center gap-2 transition-colors">
           <i class="fa-brands fa-github"></i> GitHub Profile
         </a>
       </div>
@@ -295,7 +311,7 @@
 
   </main>
 
-  <footer class="border-t border-cream-200 py-6 text-center text-xs text-cream-800">
+  <footer class="border-t border-warm-200 py-6 text-center text-xs text-warm-600">
     <p>&copy; 2026 Ivan Andrianus Christian. Hosted on GitHub Pages.</p>
   </footer>
 
